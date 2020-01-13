@@ -14,7 +14,7 @@ $ git clone https://github.com/Honey20103/spoti-cve.git
 
 ## Project Goals
 
-- This serves as a web front for a vulnerability reporting tool 
+- This serves as a web front or Dashboard for a vulnerability reporting tool 
 - The tool is expected to provide daily reports on the most recent CVE vulnerabilities released.
 - The info regarding CVE's is collected based on the Spotify inventory of network devices and software versions installed.
 - The web front is aimed to provide observability and visibility within the ENT squad and any other team in Spotify.
@@ -27,6 +27,7 @@ $ git clone https://github.com/Honey20103/spoti-cve.git
 ## Future Features
 
 - Possibly have alerts to communication platforms such like Slack.
+- Possibly include and track 0 day vulnerabilities on our inventory. 
 
 ## Technologies
 1. HTML
