@@ -52,6 +52,6 @@ The content on the site is derived from my team and I the CVE tool, however main
 ### Acknowledgements
 
 
-The media query for h was taken from this [site](https://www.codeply.com/
+The media query for h was taken from this [site] (https://www.codeply.com/
 
 
