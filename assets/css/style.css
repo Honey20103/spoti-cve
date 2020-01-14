@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* ---------------------------------------- Footer  */
+.reach-us {
+	text-align: center;
+}
+
+.reach-us li {
+	display: inline;
+}
+
+.reach-us i {
+	font-size: 200%;
+	margin: 1%;
+	padding: 5%;
+	color: #1DB954;
+}
