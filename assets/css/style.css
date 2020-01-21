@@ -1,8 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+body {
+    background-color: #fdfdfd;
+    color: #191414;
+    height: 100%;
+    margin: 0;
+}
+
+
+#bg img {
+  background-position: center;
+  background-repeat: no-repeat;ss
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%; 
+} 
+
+/* ---------------------------------------- Header/Nav Bar  */
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #1DB954;
+}
+
+#logo	{
+	float: left;
+	font-size: 200%;
+	margin-left: 50px;
+    line-height: 75px;
+}
+
+.navbar {
+    background: none;
+    border: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.language {
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 44px;
+}
+
+.language:hover {
+    color: #1DB954!important;
+    text-decoration: none;
+}
+
+/* ---------------------------------------- JUMBOTRON  */
+#landing-view {
+    background-attachment: fixed;
+    background-image: url('assets/images/keyboard.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+
 /* ---------------------------------------- Footer  */
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
 .reach-us {
 	text-align: center;
+    margin-bottom: 10px;
 }
 
 .reach-us li {
