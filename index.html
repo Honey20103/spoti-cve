@@ -6,14 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-	<link rel="stylesheet" href="./libraries/bootstrap.min.css" type="text/css" />
-	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.9/css/dataTables.bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>SPOTI-CVE</title>
 	<style>
 		#landing-view {
 			background-attachment: fixed;
-			background-image: url('assets/images/keyboard.jpg');
+			background-image: url('assets/images/drops.jpg');
 			background-position: inherit;
 			background-size: 100% auto;
 			height: 100vh;
@@ -21,7 +22,7 @@
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
-			margin-bottom: 0px;
+			margin: 0px;
 			z-index: 1;
 		}
 	</style>
@@ -32,47 +33,462 @@
 
 	<!------------START HOME SECTION------------>
 	<div class="home">
-		<div id="landing-view">
 
-			<!------------NAV AREA------------>
-			<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-				<a class="nav-brand" href="index.html">
-					<h1 id="logo">SPOTI-CVE</h1>
-				</a>
-				<button class="navbar-toggler" type="botton" data-toggle="collapse" data-target="#navbarResponsive">
+
+		<!------------NAV AREA------------>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="nav-brand" href="index.html">
+				<h1 id="logo">SPOTI-CVE</h1>
+			</a>
+			<button class="navbar-toggler" type="botton" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li><a class='nav-item' href="#home">Home</a></li>
-						<li><a class='nav-item' href="#dashboard">Dashboard</a></li>
-						<li><a class='nav-item' href="#requests">Requests</a></li>
-					</ul>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li><a class='nav-item' href="#home">Home</a></li>
+					<li><a class='nav-item' href="#dashboard">Dashboard</a></li>
+					<li><a class='nav-item' href="#requests">Requests</a></li>
+				</ul>
+			</div>
+	</div>
+	</div>
+	<!------------HOME /CIRCLE INFOGRAPHIC------------>
+	<div id="landing-view">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div class="circle-infographic">
+			<div class="circle-animated">
+				<div class="circle-animated__rotate">
+					<svg class="circle-animated__circle" version="1.1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="375px" height="374px" viewBox="0 0 375 374">
+						<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g transform="translate(-280.000000, -2039.000000)">
+								<g transform="translate(215.000000, 1945.000000)">
+									<g transform="translate(68.000000, 97.000000)">
+										<g transform="translate(12.000000, 13.000000)" fill-rule="nonzero">
+											<g fill="#34495E">
+												<path
+													d="M181.89589,18.3972727 C89.3551781,12.4821763 12.7327123,89.0193664 18.6513973,181.468733 C23.5616438,257.873636 85.3025753,319.594738 161.802521,324.47989 C254.343233,330.385537 330.956274,253.857796 325.047014,161.417879 C320.155616,85.0413223 258.367562,23.2918733 181.89589,18.3972727 M179.916712,342.650386 C78.9597808,347.289862 -4.18454795,264.223388 0.452383562,163.392727 C4.5049863,75.469449 75.7930959,4.26151515 163.809973,0.22677686 C264.73863,-4.41269972 347.892384,78.6443251 343.246027,179.53168 C339.202849,267.407713 267.91474,338.615647 179.888438,342.650386">
+												</path>
+											</g>
+											<path
+												d="M135.11869,290.262219 C134.814664,291.257417 134.12002,292.088421 133.192081,292.567027 C132.264143,293.045633 131.181421,293.131346 130.189129,292.804753 C63.2379413,270.279782 25.9303474,198.636812 46.7839961,131.174899 C67.6376449,63.7129859 139.054769,25.1041299 207.179211,43.6363808 C208.183315,43.91982 209.030304,44.5939847 209.528838,45.5065782 C210.027373,46.4191716 210.135393,47.493198 209.828495,48.4860298 L206.781819,58.3736636 C206.138633,60.3397412 204.050375,61.449575 202.050954,60.8879476 C143.38824,45.1242343 82.0383951,78.3937679 64.0894969,136.448304 C46.1405986,194.50284 78.1590866,256.135757 135.66747,275.666188 C137.630785,276.317708 138.725604,278.397135 138.146443,280.374585 L135.11869,290.262219 Z"
+												fill="#1461CB"></path>
+											<path
+												d="M252.595225,268.584509 L245.856569,260.558983 C244.542859,258.943656 244.763916,256.597655 246.357155,255.246444 C294.032263,214.303451 298.885057,143.163796 257.196764,96.3429192 C255.778598,94.8089661 255.881622,92.4400266 257.427804,91.0303802 L264.397499,84.6874733 C266.833042,82.4754909 269.393731,82.57002 270.856982,84.2053746 C294.25085,110.320088 306.072248,144.517966 303.701418,179.22036 C301.330587,213.922755 284.963329,246.263698 258.226816,269.076061 C257.415897,269.75115 256.36292,270.078296 255.304129,269.984103 C254.245338,269.889909 253.269382,269.382262 252.595225,268.575056"
+												fill="#FF611F"></path>
+											<path
+												d="M172.416263,259.990573 C147.894553,259.989551 124.416183,250.09179 107.32398,232.549663 C106.580046,231.755945 106.190292,230.695325 106.243708,229.609969 C106.297124,228.524612 106.789149,227.507186 107.607441,226.789994 L115.317603,220.031103 C116.865749,218.69598 119.192774,218.812266 120.599442,220.295048 C141.869381,241.87244 174.318619,248.035393 202.047473,235.764143 C233.236969,221.926055 250.440881,188.177769 243.279472,154.880836 C236.118063,121.583902 206.550629,97.8480597 172.416263,97.9939934 C133.939345,97.9724534 102.16559,127.978437 100.076806,166.308757 C99.9785207,168.335075 98.3300936,169.942643 96.2973146,169.994568 L85.9037144,169.994568 C84.8513585,169.997491 83.8426483,169.575226 83.1074712,168.824009 C82.372294,168.072793 81.9732889,167.056629 82.0013899,166.007105 C84.1934947,116.121397 127.44032,76.6521105 178.89809,80.224802 C223.722854,83.3261622 259.637467,119.024798 262.774444,163.584462 C266.459448,216.100199 224.507098,260 172.454058,260"
+												fill="#5494CF"></path>
+											<path
+												d="M202.977651,204.811453 C203.689181,205.575641 204.05674,206.604739 203.992873,207.653892 C203.929007,208.703045 203.439425,209.678454 202.640614,210.348038 C182.442789,226.421411 153.460575,224.059026 136.052164,204.92031 C118.643753,185.781594 118.650013,156.287967 136.066547,137.156856 C136.79056,136.398034 137.793298,135.979177 138.834138,136.000797 C139.874978,136.022418 140.85997,136.482564 141.552752,137.270817 L148.555621,144.972653 C149.8934,146.506435 149.865045,148.819735 148.490086,150.319303 C138.099981,162.553989 138.404805,180.746923 149.198776,192.61639 C159.992747,204.485857 177.845043,206.25919 190.703906,196.739246 C192.298817,195.476289 194.575782,195.636002 195.984144,197.109618 L202.977651,204.811453 Z"
+												fill="#FF611F"></path>
+										</g>
+										<path
+											d="M184.5,368 C286.396536,368 369,285.620394 369,184 C369,82.379606 286.396536,0 184.5,0 C82.6034637,0 0,82.379606 0,184 C0,285.620394 82.6034637,368 184.5,368 Z"
+											stroke="#DDE9F2" stroke-width="6" stroke-dasharray="7.96"></path>
+									</g>
+								</g>
+							</g>
+						</g>
+					</svg>
+					<div class="circle-animated__icons">
+						<svg class="circle-animated__icon circle-animated__icon--top" width="58px" height="49px"
+							viewBox="0 0 58 49" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g class="circle-animated__icon-fill" transform="translate(-438.000000, -2433.000000)"
+									fill="#34495E" fill-rule="nonzero">
+									<g transform="translate(217.000000, 1945.000000)">
+										<g transform="translate(221.000000, 488.000000)">
+											<path
+												d="M57.9248871,45.856675 L54.3173781,31.4898863 C54.2619776,31.2682787 54.1759371,31.055427 54.0617279,30.8574456 C54.2758089,30.273813 54.3847933,29.6570684 54.3836578,29.0356386 L54.3836578,5.38046619 C54.3784349,2.40739051 51.9593785,-4.55936916e-06 48.9771287,0 L9.05781708,0 C6.07926429,0.00519580298 3.66596829,2.4110716 3.66075646,5.38046619 L3.66075646,29.0639568 C3.66132517,29.6844289 3.76696339,30.3003528 3.97321786,30.8857638 C3.86276051,31.0855426 3.77692166,31.2978952 3.71756762,31.5182046 L0.0721845692,45.9982662 C-0.108399966,46.7194797 0.0540197259,47.483418 0.512563595,48.0695818 C0.971107464,48.6557455 1.67474418,48.9989005 2.42037937,49 L55.5861608,49 C56.3486074,48.9880564 57.0620967,48.6232129 57.5166473,48.0128437 C57.9711978,47.4024744 58.1150804,46.6160413 57.90595,45.8849933 L57.9248871,45.856675 Z M35.1530786,45.195916 L22.843993,45.195916 C22.703007,45.192616 22.570513,45.1280395 22.48131,45.0191471 C22.3921069,44.9102546 22.3551096,44.767929 22.3800352,44.6295511 L23.3268879,39.3434791 C23.3638352,39.1161973 23.5598943,38.9486633 23.7908457,38.9470237 L34.1588833,38.9470237 C34.3919932,38.9479336 34.591174,39.114731 34.6323096,39.3434791 L35.5791624,44.5917935 C35.5836964,44.6325727 35.5836964,44.6737266 35.5791624,44.7145059 C35.5960182,44.970442 35.4086351,45.1946103 35.1530786,45.2242343 L35.1530786,45.195916 Z M49.6588626,29.0356386 C49.6585293,29.3025645 49.5035926,29.545288 49.2611845,29.65864 L8.77376126,29.65864 C8.53135318,29.545288 8.37641641,29.3025645 8.37608311,29.0356386 L8.37608311,5.38046619 C8.37608311,5.00511258 8.68130581,4.70082836 9.05781708,4.70082836 L48.9771287,4.70082836 C49.1579357,4.70082836 49.3313374,4.77243285 49.4591874,4.89988967 C49.5870373,5.02734649 49.6588626,5.20021503 49.6588626,5.38046619 L49.6588626,29.0639568 L49.6588626,29.0356386 Z">
+											</path>
+											<path
+												d="M29.3008715,16.4195584 L30.8006889,16.0165627 C31.0957545,15.9337097 31.304752,15.6714655 31.3196328,15.3654061 C31.3345137,15.0593467 31.1519426,14.7780717 30.8663059,14.6669958 L23.9577721,12.0428379 C23.6962994,11.9478568 23.4034476,12.0137353 23.2078634,12.2115338 C23.0088857,12.4067353 22.946116,12.7020634 23.0485079,12.9612932 L25.6638144,19.8590796 C25.7731105,20.1450912 26.0529967,20.3292695 26.3589679,20.3165233 C26.664939,20.303777 26.9285305,20.0969583 27.01365,19.8028476 L27.4167259,18.3033288 L30.9131752,21.78971 C31.0453601,21.9242274 31.2260632,22 31.4146766,22 C31.60329,22 31.7839931,21.9242274 31.916178,21.78971 L32.7973207,20.9181147 C33.0675598,20.638444 33.0675598,20.1949822 32.7973207,19.9153115 L29.3008715,16.4195584 Z">
+											</path>
+										</g>
+									</g>
+								</g>
+							</g>
+						</svg>
+						<svg class="circle-animated__icon circle-animated__icon--left" width="36px" height="49px"
+							viewBox="0 0 36 49" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g class="circle-animated__icon-fill" transform="translate(-217.000000, -2200.000000)"
+									fill="#DDE9F2" fill-rule="nonzero">
+									<g transform="translate(217.000000, 1945.000000)">
+										<path
+											d="M35.4801785,257.494148 C32.6471512,256.444314 29.6545844,255.890763 26.6337621,255.857779 C24.0733897,255.802313 21.5386115,256.377231 19.2522972,257.531983 C16.9182544,258.618431 14.3575439,259.127734 11.7857705,259.017012 C8.35933427,258.954745 4.95220991,258.488038 1.63507482,257.626571 L1.63507482,255.734815 C1.59010547,255.316848 1.23758755,255 0.817537411,255 C0.397487276,255 0.0449693508,255.316848 0,255.734815 L0,258.194098 C0,258.194098 0,258.194098 0,258.194098 C0,258.194098 0,258.194098 0,258.194098 L0,303.265185 C0.0449693508,303.683152 0.397487276,304 0.817537411,304 C1.23758755,304 1.59010547,303.683152 1.63507482,303.265185 L1.63507482,283.884145 C4.95746024,284.709652 8.36295454,285.153922 11.7857705,285.208374 C14.6235929,285.323479 17.4473385,284.752443 20.0178525,283.543628 C22.0683553,282.513846 24.3402169,282.003896 26.6337621,282.0586 C29.447102,282.097372 32.2336079,282.612261 34.8752954,283.581464 C35.129434,283.676969 35.4138585,283.645341 35.6408506,283.496335 C35.8633778,283.340638 35.9971268,283.087019 36,282.815302 L36,258.222474 C35.9853325,257.898374 35.78176,257.613147 35.4801785,257.494148 Z">
+										</path>
+									</g>
+								</g>
+							</g>
+						</svg>
+						<svg class="circle-animated__icon circle-animated__icon--bottom" width="56px" height="35px"
+							viewBox="0 0 56 35" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g class="circle-animated__icon-fill" transform="translate(-675.000000, -2207.000000)"
+									fill="#DDE9F2" fill-rule="nonzero">
+									<g transform="translate(195.000000, 1945.000000)">
+										<g id="cargo-truck-copy-2" transform="translate(480.000000, 262.000000)">
+											<path
+												d="M45.540404,25.7142857 C42.9699735,25.7142857 40.8787879,27.7975916 40.8787879,30.3571429 C40.8787879,32.9172296 42.9699735,35 45.540404,35 C48.1102969,35 50.2020202,32.9172296 50.2020202,30.3571429 C50.2020202,27.7975916 48.1102969,25.7142857 45.540404,25.7142857 Z M45.540404,31.7226891 C44.7841684,31.7226891 44.1693405,31.1103353 44.1693405,30.3571429 C44.1693405,29.6039504 44.7841684,28.9915966 45.540404,28.9915966 C46.2966397,28.9915966 46.9114676,29.6039504 46.9114676,30.3571429 C46.9114676,31.1103353 46.2966397,31.7226891 45.540404,31.7226891 Z">
+											</path>
+											<path
+												d="M45.0900754,6.42857143 L36.9650845,6.42857143 C36.3537079,6.42857143 35.8585859,6.91977721 35.8585859,7.52491694 L35.8585859,28.9036545 C35.8585859,29.5087942 36.3537079,30 36.9650845,30 L38.1385698,30 C38.6863047,30 39.1714827,29.6091134 39.242266,29.070883 C39.6765487,25.7741434 42.3305183,23.7295127 45.5409916,23.7295127 C48.751465,23.7295127 51.4054346,25.7742329 51.8397173,29.070883 C51.9105006,29.609203 52.3951362,30 52.9434135,30 L54.1157236,30 C54.7264674,30 55.2222222,29.5087942 55.2222222,28.9036545 L55.2222222,18.2142857 C55.2222222,17.9566803 55.130918,17.7077633 54.9644008,17.5109765 L45.9386622,6.82160771 C45.7285721,6.57278027 45.4175953,6.42857143 45.0900754,6.42857143 Z M38.0715832,15.1993355 L38.0715832,9.71760797 C38.0715832,9.11246824 38.5667052,8.62126246 39.1780819,8.62126246 L44.0521904,8.62126246 C44.3802528,8.62126246 44.691772,8.76600873 44.9019525,9.01591102 L49.5121828,14.4976386 C50.1124403,15.2118754 49.6001422,16.2956811 48.6618784,16.2956811 L39.1780819,16.2956811 C38.5667052,16.2956811 38.0715832,15.8051023 38.0715832,15.1993355 Z">
+											</path>
+											<path
+												d="M1.10514986,30 L3.93492941,30 C4.48199665,30 4.9665832,29.6038489 5.03728028,29.0583696 C5.47103354,25.7172295 8.12176799,23.6450617 11.3283278,23.6450617 C14.5348876,23.6450617 17.1856221,25.7173203 17.6193753,29.0583696 C17.6900724,29.6039397 18.1741172,30 18.7217262,30 L32.6019208,30 C33.2120105,30 33.7070707,29.5021786 33.7070707,28.8888889 L33.7070707,1.11111111 C33.7070707,0.497821351 33.2119202,0 32.6019208,0 L1.10514986,0 C0.494518446,0 0,0.497821351 0,1.11111111 L0,28.8888889 C0,29.5022694 0.494518446,30 1.10514986,30 Z">
+											</path>
+											<path
+												d="M11.1161616,25.7142857 C8.54573105,25.7142857 6.45454545,27.7975916 6.45454545,30.3571429 C6.45454545,32.9172296 8.54573105,35 11.1161616,35 C13.6860545,35 15.7777778,32.9172296 15.7777778,30.3571429 C15.7777778,27.7975916 13.6860545,25.7142857 11.1161616,25.7142857 Z M11.1161616,31.7226891 C10.359926,31.7226891 9.74509804,31.1103353 9.74509804,30.3571429 C9.74509804,29.6039504 10.359926,28.9915966 11.1161616,28.9915966 C11.8723973,28.9915966 12.4872252,29.6039504 12.4872252,30.3571429 C12.4872252,31.1103353 11.8723973,31.7226891 11.1161616,31.7226891 Z">
+											</path>
+										</g>
+									</g>
+								</g>
+							</g>
+						</svg>
+						<svg class="circle-animated__icon circle-animated__icon--right" width="38px" height="50px"
+							viewBox="0 0 38 50" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g class="circle-animated__icon-fill" transform="translate(-675.000000, -2200.000000)"
+									fill="#DDE9F2" fill-rule="nonzero">
+									<g transform="translate(217.000000, 1945.000000)">
+										<path
+											d="M495.995201,274.418663 C496.149713,267.53339 492.563421,261.103994 486.62274,257.615998 C480.682058,254.128001 473.317942,254.128001 467.37726,257.615998 C461.436579,261.103994 457.850287,267.53339 458.004799,274.418663 L458.004799,284.832177 C458.004799,284.832177 458.004799,284.832177 458.004799,284.889499 C458.010051,289.33156 461.608324,292.93273 466.052074,292.943253 C466.854386,292.943253 467.504789,292.293099 467.504789,291.491093 L467.504789,278.297458 C467.504789,277.495453 466.854386,276.845299 466.052074,276.845299 C464.168942,276.854625 462.350236,277.531724 460.919786,278.756035 L460.919786,274.418663 C460.777439,268.582525 463.810797,263.127771 468.844583,260.167851 C473.878368,257.207931 480.121632,257.207931 485.155417,260.167851 C490.189203,263.127771 493.222561,268.582525 493.080214,274.418663 L493.080214,278.708267 C491.649764,277.483955 489.831058,276.806856 487.947926,276.79753 C487.145614,276.79753 486.495211,277.447684 486.495211,278.24969 L486.495211,291.491093 C486.495211,292.293099 487.145614,292.943253 487.947926,292.943253 C489.777766,292.943835 491.552362,292.316557 492.975084,291.166268 C492.197521,296.890835 487.638736,301.361376 481.898134,302.028805 C481.959307,301.749443 481.991336,301.464493 481.993707,301.178527 C481.993707,299.067986 480.282121,297.357054 478.170773,297.357054 L475.848341,297.357054 C473.736993,297.357054 472.025408,299.067986 472.025408,301.178527 C472.025408,303.289068 473.736993,305 475.848341,305 L480.483648,305 C489.043898,304.984227 495.979422,298.051353 495.995201,289.494374 L495.995201,274.418663 Z">
+										</path>
+									</g>
+								</g>
+							</g>
+						</svg>
+
+
+					</div>
 				</div>
+			</div>
+			<div class="circle-infographic__right">
+				<div class="circle-infographic__controls">
+					<div class="circle-infographic__toggle">
+						<svg aria-hidden="true" data-prefix="fas" data-icon="pause"
+							class="circle-infographic__toggle-icon circle-infographic__toggle-icon--pause svg-inline--fa fa-pause fa-w-14"
+							role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path fill="currentColor"
+								d="M144 479H48c-26.5 0-48-21.5-48-48V79c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zm304-48V79c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v352c0 26.5 21.5 48 48 48h96c26.5 0 48-21.5 48-48z">
+							</path>
+						</svg>
+						<svg aria-hidden="true" data-prefix="fas" data-icon="play"
+							class="circle-infographic__toggle-icon circle-infographic__toggle-icon--play svg-inline--fa fa-play fa-w-14"
+							role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path fill="currentColor"
+								d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+							</path>
+						</svg>
+					</div>
+					<div class="circle-infographic__slider"></div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="circle-infographic__dialogs">
+					<article class="circle-infographic__dialog circle-infographic__dialog--1">
+						<div class="circle-infographic__dialog-header">
+
+
+						</div>
+						<h3 class="mt16 visible-xs">submit a request</h3>
+						We in ENT would like to collaborate wiht other team within PE or outisde. Hopefully this tool
+						could become inteernally usede
+					</article>
+
+					<article class="circle-infographic__dialog circle-infographic__dialog--2">
+						<div class="circle-infographic__dialog-header">
+
+
+						</div>
+						<h3 class="mt16 visible-xs">What does the dashboard contain</h3>
+						Current exisiting CVE;s etc etc etc
+					</article>
+
+					<article class="circle-infographic__dialog circle-infographic__dialog--3">
+						<div class="circle-infographic__dialog-header">
+
+
+						</div>
+						<h3 class="mt16 visible-xs">Benefuts</h3>
+						<br>
+					SWHy this tool
+				</article>
+
+						<article class="circle-infographic__dialog circle-infographic__dialog--4">
+							<div class="circle-infographic__dialog-header">
+
+
+							</div>
+							<h3 class="mt16 visible-xs">PUrpose</h3>
+							We own the outcome from start to finish,
+						</article>
+
+				</div>
+
+			</div>
 		</div>
-    </div>
-		<!------------HOME------------>
-
-    
-		<div class="circle text-center">
-			<h2>EHLPtssingh sdjkhfdjskhk</h2>
-
-		</div>
-    </div>
-   
+	</div>
+	<div class="circle text-center">
 
 
-
-
+	</div>
 
 
 	<!------------DASHBOARD------------>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container-table mb-3 mt-3">
+		<h2> CVE REPORTING TOOL </h2>
+        <br>
+
+		<table class="table table-striped table-bordered" style="width: 100%; cellspacing:0;" id="cvetable">
+			<thread>
+				<tr>
+					<th class="th-sm">ID</th>
+					<th class="th-sm">Published</th>
+					<th class="th-sm">References</th>
+					<th class="th-sm">Summary</th>
+					<th class="th-sm">Vendor</th>
+					<th class="th-sm">Version</th>
+					<th class="th-sm">Reviewed</th>
+					<th class="th-sm">In Progress</th>
+					<th class="th-sm">CVE Number</th>
+
+
+			</thread>
+			<tbody>
+				<tr>
+					<td>panos-CVE-2019-17437</td>
+					<td>2019-10-10 18:00:00</td>
+					<td>https://securityadvisories.paloaltonetworks.com/Home/Detail/159 </td>
+					<td>https://securityadvisories.paloaltonetworks.com/Home/Detail/159
+						An improper authentication check in Palo Alto Networks PAN-OS may allow an authenticated low
+						privileged non-superuser custom role user to elevate privileges and become superuser. This issue
+						affects PAN-OS 7.1 versions
+						prior to 7.1.25; 8.0 versions prior to 8.0.20; 8.1 versions prior to 8.1.11; 9.0 versions prior
+						to 9.0.5. PAN-OS version 7.0 and prior EOL versions have not been evaluated for this issue.
+					</td>
+
+
+					<td>PANOS</td>
+					<td>7.1.0</td>
+					<td>0</td>
+					<td>0</td>
+					<td>CVE-2019-17437</td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+
+				</tr>
+
+			</tbody>
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>Published</th>
+					<th>References</th>
+					<th>Summary</th>
+					<th>Vendor</th>
+					<th>Version</th>
+					<th>Reviewed</th>
+					<th>In Progress</th>
+					<th>CVE Number</th>
+
+				</tr>
+
+			</tfoot>
+		</table>
+
+
+	</div>
+
+	<br>
+	<br>
+	<br>
+    <br>
+
+	<!------------PROGRESS BARS------------>
+
+	<h2>Health Statistics</h2>
+    <br>
+	<div class="container">
+		<div class="card">
+			<div class="box">
+				<div class="percent">
+					<svg>
+						<circle cx="70" cy="70" r="70"></circle>
+						<circle cx="70" cy="70" r="70"></circle>
+					</svg>
+					<div class="number">
+						<h3>90<span>%</span></h3>
+					</div>
+				</div>
+				<h3 class="text">Reviewed CVE's</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="box">
+				<div class="percent">
+					<svg>
+						<circle cx="70" cy="70" r="70"></circle>
+						<circle cx="70" cy="70" r="70"></circle>
+					</svg>
+					<div class="number">
+						<h3>85<span>%</span></h3>
+					</div>
+				</div>
+				<h3 class="text">Resolved CVE's</h3>
+			</div>
+		</div>
+		<div class="card">
+			<div class="box">
+				<div class="percent">
+					<svg>
+						<circle cx="70" cy="70" r="70"></circle>
+						<circle cx="70" cy="70" r="70"></circle>
+					</svg>
+					<div class="number">
+						<h3>65<span>%</span></h3>
+					</div>
+				</div>
+				<h3 class="text">Unresolved CVE's</h3>
+			</div>
+		</div>
+	</div>
+
+
 	<!------------REQUESTS------------>
 
 	<!---------FOOTER--------->
 	<footer>
-		<div class="container">
+		<div class="container-footer">
 			<ul class="reach-us">
 				<li><a href="https://spotify.slack.com" target="_blank"><i class="fab fa-slack"></i></a></li>
 				<li><a href="https://spotify.stackenterprise.co/"
@@ -85,9 +501,270 @@
 			</ul>
 		</div>
 	</footer>
+
+
+
+
+	<!---------SCRIPTS-------->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/popper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+	</script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/modernizr.custom.64310.js"></script>
+
+	<script>
+		$(document).ready(function () {
+        $('#cvetable').DataTable();
+        $('.dataTables_length').addClass('bs-select');
+        });
+	</script>
+	<script>
+		var $rotate = $(".circle-animated__rotate");
+    var colorDark = "rgb(52, 73, 94)";
+    var colorLight = "rgb(221, 233, 242)";
+
+
+    TweenMax.set($rotate, {
+      transformOrigin: "center"
+    });
+
+    function rotateInfo() {
+      var tl = new TimelineMax(
+        {
+          onComplete:function() {
+            setTimeout(function () {
+              master.restart();
+            }, 4000);
+          }
+        }
+      );
+
+      tl.add("likely");
+      
+      // Show Dialog 1
+      tl.to($(".circle-infographic__dialog--1"), 0, 
+        {
+          display: 'block',
+        }, 
+        "likely"
+      );
+
+      // Rotate Circle
+      tl.to($rotate, 1, 
+        {
+          rotation: -90
+        }, 
+        "likely+=3"
+      );
+      
+      // Icon to Light
+      tl.to($(".circle-animated__icon--top .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorLight
+        }, 
+        "likely+=3"
+      );
+
+      // Icon to Dark
+      tl.to($(".circle-animated__icon--right .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorDark
+        }, 
+        "likely+=3"
+      );
+
+      // Hide Dialog 1
+      tl.to($(".circle-infographic__dialog--1"), 0.5, 
+        {
+          display: '',
+        }, 
+        "likely+=3"
+      );
+
+      // Show Dialog 2
+      tl.to($(".circle-infographic__dialog--2"), 0.5, 
+        {
+          display: 'block',
+        }, 
+        "likely+=3"
+      );
+
+      // Rotate Circle
+      tl.to($rotate, 1, 
+        {
+          rotation: -180
+        }, 
+        "likely+=6.5"
+      );
+
+      // Icon to Light
+      tl.to($(".circle-animated__icon--right .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorLight
+        }, 
+        "likely+=6.5"
+      );
+
+      // Icon to Dark
+      tl.to($(".circle-animated__icon--bottom .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorDark
+        }, 
+        "likely+=6.5"
+      );
+
+      // Hide Dialog 2
+      tl.to($(".circle-infographic__dialog--2"), 0.5, 
+        {
+          display: '',
+        }, 
+        "likely+=6.5"
+      );
+
+      // Show Dialog 3
+      tl.to($(".circle-infographic__dialog--3"), 0.5, 
+        {
+          display: 'block',
+        }, 
+        "likely+=6.5"
+      );
+      
+      // Rotate Circle
+      tl.to($rotate, 1, 
+        {
+          rotation: -270
+        }, 
+        "likely+=10"
+      );
+
+      // Icon to Light
+      tl.to($(".circle-animated__icon--bottom .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorLight
+        }, 
+        "likely+=10"
+      );
+
+      // Icon to Dark
+      tl.to($(".circle-animated__icon--left .circle-animated__icon-fill"), 1, 
+        {
+          fill: colorDark
+        }, 
+        "likely+=10"
+      );
+
+      // Hide Dialog 3
+      tl.to($(".circle-infographic__dialog--3"), 0.5, 
+        {
+          display: '',
+        }, 
+        "likely+=10"
+      );
+
+      // Show Dialog 4
+      tl.to($(".circle-infographic__dialog--4"), 0.5, 
+        {
+          display: 'block',
+        }, 
+        "likely+=10"
+      );
+      
+      tl.timeScale(0.7);
+
+      return tl;
+    }
+    
+
+    var master = new TimelineMax();
+    master.add(rotateInfo(), "rotateInfo");
+
+    master.pause();
+
+    $(document).on('click', 'a.replay', function(e) {
+      master.restart();
+      e.preventDefault();
+    });
+
+    $('.circle-animated__icon--top').on('click', function(e) {
+      master.pause();
+      master.seek("rotateInfo+=3", false);
+      e.preventDefault();
+    });
+
+    $('.circle-animated__icon--right').on('click', function(e) {
+      master.pause();
+      master.seek("rotateInfo+=6.5", false);
+      e.preventDefault();
+    });
+
+    $('.circle-animated__icon--bottom').on('click', function(e) {
+      master.pause();
+      master.seek("rotateInfo+=10.75", false);
+      e.preventDefault();
+    });
+
+    $('.circle-animated__icon--left').on('click', function(e) {
+      master.pause();
+      master.seek("rotateInfo+=16", false);
+      e.preventDefault();
+    });
+
+$('.circle-infographic__toggle-icon--pause').on('click', function(e) {
+      master.pause();
+      $('.circle-infographic__toggle-icon--pause').hide();
+ $('.circle-infographic__toggle-icon--play').show();
+    });
+
+$('.circle-infographic__toggle-icon--play').on('click', function(e) {
+      master.play();
+      $('.circle-infographic__toggle-icon--play').hide();
+ $('.circle-infographic__toggle-icon--pause').show();
+    });
+
+    var slider = $(".circle-infographic__slider"),
+        sliderValue = {value:0};
+
+    slider.slider({
+      range: false,
+      min: 0,
+      max: 100,
+      step:.1,
+      start:function() {
+        master.pause();
+      },
+      slide: function ( event, ui ) {
+        master.progress( ui.value / 100 );
+      },
+      stop:function() {
+        master.play();
+      $('.circle-infographic__toggle-icon--play').hide();
+      $('.circle-infographic__toggle-icon--pause').show();
+      }
+    });
+
+    master.eventCallback("onUpdate", function() {
+      sliderValue.value = master.progress() * 100;
+      slider.slider(sliderValue);
+    });
+
+    elTrigger = triggerPos( $('.circle-infographic'), -100 );
+    triggered = false;
+    $(window).on("load scroll",function(e){
+      var st = $(this).scrollTop();
+      if( !triggered && st >= elTrigger ){
+        triggered = true;
+        master.play();
+      }
+    })
+
+    function triggerPos( el, buffer ){
+      return el.offset().top - el.height() + buffer;
+    }
+	</script>
 </body>
 
 </html>
