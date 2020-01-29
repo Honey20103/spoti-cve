@@ -4,6 +4,8 @@ html {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    overflow-x: hidden;
+    width: 100%;
     }
 
 body {
@@ -78,16 +80,19 @@ h1 {
 
 /* ---------------------------------------- JUMBOTRON  */
 #home {
-    background-attachment: scroll;
-    background-image: url('assets/images/keyboard.jpg');
-    background-position: bottom;
-    background-size: cover;
-    height: 700px;
-    width: 100vw;
-    margin-bottom: 0px;
-    z-index: 1;
-    position: relative;
-}
+			background-attachment: fixed;
+			background-image: url('../images/drops.jpg');
+			background-position: inherit;
+			background-size: 100% auto;
+			height: 900px;
+			width: 100%;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			margin: 0px;
+			z-index: 1;
+            position: relative;
+		}
 
 
 /* ---------------------------------------- Circle Infographic   */
@@ -374,18 +379,17 @@ h1 {
 /* -----------------------------REQUESTS------------------------------- */
 
 #requests {
-    background-attachment: scroll;
-    background-image: url('assets/images/light.jpg');
-    background-position: bottom;
-    background-size: cover;
-    display: inline-block;
-    height: 900px;
-    width: 100%;
-    margin-bottom: 0px;
-    z-index: 1;
-    position: relative;
-    padding-top: 120px;
-}
+		background-attachment: scroll;
+		background-image: url('../images/light.jpg');
+		background-position: top;
+		background-size: cover;
+		display: inline-block;
+		height: 700px;
+		width: 100%;
+		margin-bottom: 0px;
+		z-index: 1;
+		position: relative;
+		}
 
 
 
