@@ -451,12 +451,13 @@ footer {
 	margin-bottom: 0;
   }
 }
-
+/*
 @media (max-width: 767px) {
   .circle-infographic__dialog p {
     padding: 0 20px;
   }
 }
+*/
 
 @media (max-width: 767px) {
   .circle-infographic {
