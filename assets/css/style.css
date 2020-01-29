@@ -410,7 +410,7 @@ footer {
 
 
 /* ---------------------------------------- Media Queries  */
-
+/*
 @media screen and (max-width:943px) {
     #home {
         clear: left;
@@ -424,7 +424,7 @@ footer {
 @media screen and (max-width: 800px){
 	.card {
 		column-count: 1;
-	}
+	} */
 
 @media(min-width: 992px) {
     .center-form {
