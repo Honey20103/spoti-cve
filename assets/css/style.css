@@ -411,6 +411,21 @@ footer {
 
 /* ---------------------------------------- Media Queries  */
 
+@media screen and (max-width:943px) {
+    #home {
+        clear: left;
+		float: left;
+		margin-left: 30px;
+		margin-bottom: 20px;
+		line-height: 25px:
+    }
+}
+
+@media screen and (max-width: 800px){
+	.card {
+		column-count: 1;
+	}
+
 @media(min-width: 992px) {
     .center-form {
         padding-top: 30px;
@@ -530,3 +545,11 @@ footer {
 .visible-xs {
     display: block!important;
 }
+
+@media(min-width: 992px) {
+    .request-section {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%
+    }
