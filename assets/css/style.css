@@ -187,6 +187,7 @@ h1 {
 
 
 .circle-infographic__dialogs {
+    position: relative;
 
 }
 
@@ -378,7 +379,7 @@ h1 {
     margin-bottom: 0px;
     z-index: 1;
     position: relative;
-    padding-top: 10px;
+    padding-top: 150px;
 }
 
 
@@ -427,7 +428,7 @@ footer {
 	} */
 
 @media(min-width: 992px) {
-    .center-form {
+    .request-section {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
