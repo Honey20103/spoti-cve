@@ -267,7 +267,8 @@ h1 {
 /* -----------------------------DASHBOARD------------------------------- */
 
 #dashboard {
-    padding-top: 150px;
+    background-color: #fafafa;
+    padding-top: 120px;
 }
 
 /* ---------------------------------------- Circle bar progress   */ 
