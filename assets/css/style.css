@@ -20,6 +20,7 @@ h2, h3{
 	text-align:center;
 }
 
+/* -----------------------------HOME------------------------------- */
 /* ---------------------------------------- Header/Nav Bar  */
 
 h1 {
@@ -76,43 +77,17 @@ h1 {
 } 
 
 /* ---------------------------------------- JUMBOTRON  */
-#landing-view {
+#home {
     background-attachment: scroll;
     background-image: url('assets/images/keyboard.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
+    height: 700px;
     width: 100vw;
     margin-bottom: 0px;
     z-index: 1;
+    position: relative;
 }
-
-
-/* ---------------------------------------- Footer  */
-
-footer {
-    border-color: transparent;
-    text-align: center;
-}
-
-.reach-us {
-	text-align: center;
-    margin-bottom: 5px;
-}
-
-.reach-us li {
-	display: inline;
-}
-
-.reach-us i {
-	font-size: 200%;
-	margin: 1%;
-	padding: 5%;
-	color: #1DB954;
-}
-
-
-
 
 
 /* ---------------------------------------- Circle Infographic   */
@@ -125,30 +100,6 @@ footer {
           box-sizing: border-box;
 }
 
-@media (max-width: 767px) {
-  .circle-infographic {
-    text-align: center;
-    padding-top: 30px;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-infographic {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-animated,
-  .circle-infographic__right {
-    -webkit-box-flex: 50%;
-        -ms-flex: 50%;
-            flex: 50%;
-  }
-}
-
 .circle-animated {
   padding: 90px;
   display: -webkit-inline-box;
@@ -157,17 +108,6 @@ footer {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-
-@media (max-width: 767px) {
-  .circle-animated {
-    left: 50%;
-    margin-left: -100vw;
-    margin-top: -100px;
-    -webkit-transform: scale(0.60);
-        -ms-transform: scale(0.60);
-            transform: scale(0.60);
-  }
 }
 
 .circle-animated__tab {
@@ -245,48 +185,10 @@ footer {
           transform: translateY(-50%) rotate(-90deg);
 }
 
-@media (max-width: 767px) {
-  .circle-infographic__right {
-    margin-top: -70px;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-infographic__right {
-    position: relative;
-  }
-}
 
 .circle-infographic__dialogs {
 
 }
-
-@media (max-width: 767px) {
-  .circle-infographic__dialog {
-    padding: 0 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-infographic__dialog {
-    position: relative;
-    max-width: 420px;
-  }
-}
-
-.circle-infographic__dialog {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .circle-infographic__dialog-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-}
-
 
 .circle-infographic__dialog h3 {
   position: bottom;
@@ -303,12 +205,6 @@ footer {
   right: 0;
 }
 
-@media (max-width: 767px) {
-  .circle-infographic__dialog p {
-    padding: 0 20px;
-  }
-}
-
 .circle-infographic__controls {
 		-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
@@ -322,23 +218,6 @@ footer {
 	    padding: 0 10px;
 }
 
-
-@media (min-width: 440px) {
-  .circle-infographic__controls {
-    max-width: 420px;
-  }
-}
-
-@media (min-width: 768px) {
-  .circle-infographic__controls {
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    margin-top: 0;
-	margin-bottom: 0;
-  }
-}
-
 .circle-infographic__toggle {
     width: 30px;
 	    margin-right: 15px;
@@ -348,6 +227,7 @@ footer {
 .circle-infographic__toggle-icon {
 	color: #1561CB;
 	cursor: pointer;
+    display: none;
 }
 
 .circle-infographic__toggle-icon--play {
@@ -361,7 +241,7 @@ footer {
 	        box-sizing: border-box;
 	height: 15px;
 	width: 100%;
-    display: block; 
+    display: none; 
 	position: relative;
 }
 
@@ -382,17 +262,8 @@ footer {
     color: #1DB954!important;
 }
 
-/* bootstrap */
-@media (max-width: 767px)
-.hidden-xs {
-    display: none!important;
-}
 
-@media (max-width: 767px)
-.visible-xs {
-    display: block!important;
-}
-
+/* -----------------------------DASHBOARD------------------------------- */
 
 /* ---------------------------------------- Circle bar progress   */ 
 
@@ -492,4 +363,170 @@ footer {
 
 .card:hover .text{
   color:#fff;
+}
+
+/* -----------------------------REQUESTS------------------------------- */
+
+#requests {
+    background-attachment: scroll;
+    background-image: url('assets/images/light.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: inline-block;
+    height: 700px;
+    width: 100%;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* ---------------------------------------- Footer  */
+
+footer {
+    border-color: transparent;
+    text-align: center;
+}
+
+.reach-us {
+	text-align: center;
+    margin-bottom: 5px;
+}
+
+.reach-us li {
+	display: inline;
+}
+
+.reach-us i {
+	font-size: 200%;
+	margin: 1%;
+	padding: 5%;
+	color: #1DB954;
+}
+
+
+/* ---------------------------------------- Media Queries  */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%
+    }
+}
+
+/* Circle infographic */
+@media (min-width: 440px) {
+  .circle-infographic__controls {
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-infographic__controls {
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin-top: 0;
+	margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-infographic__dialog p {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-infographic {
+    text-align: center;
+    padding-top: 30px;
+    margin: inherit;
+    margin-top: 20%!important;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-infographic {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-animated,
+  .circle-infographic__right {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-animated {
+    left: 50%;
+    margin-left: -100vw;
+    margin-top: -100px;
+    -webkit-transform: scale(0.60);
+        -ms-transform: scale(0.60);
+            transform: scale(0.60);
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-infographic__right {
+    margin-top: -70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-infographic__right {
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .circle-infographic__dialog {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .circle-infographic__dialog {
+    position: relative;
+    max-width: 420px;
+  }
+}
+
+.circle-infographic__dialog {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .circle-infographic__dialog-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+
+/* bootstrap */
+@media (max-width: 767px)
+.hidden-xs {
+    display: none!important;
+}
+
+@media (max-width: 767px)
+.visible-xs {
+    display: block!important;
 }
