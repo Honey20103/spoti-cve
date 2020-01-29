@@ -374,12 +374,12 @@ h1 {
     background-position: bottom;
     background-size: cover;
     display: inline-block;
-    height: 700px;
+    height: 900px;
     width: 100%;
     margin-bottom: 0px;
     z-index: 1;
     position: relative;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 
@@ -548,10 +548,3 @@ footer {
     display: block!important;
 }
 
-@media(min-width: 992px) {
-    .request-section {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%
-    }
