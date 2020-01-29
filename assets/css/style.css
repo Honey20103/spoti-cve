@@ -390,8 +390,12 @@ h1 {
 		z-index: 1;
 		position: relative;
         padding-top: 120px;
+        overflow-x: inherit;
 		}
 
+.form-group {
+    align-items: center;
+}
 
 
 

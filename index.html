@@ -17,30 +17,30 @@
 
 
 	<!------------START HOME SECTION------------>
-	
 
 
-		<!------------NAV AREA------------>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-			<a class="nav-brand" href="index.html">
-				<h1 id="logo">SPOTI-CVE</h1>
-			</a>
-			<button class="navbar-toggler" type="botton" data-toggle="collapse" data-target="#navbarResponsive">
+
+	<!------------NAV AREA------------>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="nav-brand" href="index.html">
+			<h1 id="logo">SPOTI-CVE</h1>
+		</a>
+		<button class="navbar-toggler" type="botton" data-toggle="collapse" data-target="#navbarResponsive">
 		            <span class="navbar-toggler-icon"></span>
 		        </button>
 
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li><a class='nav-item' href="#home">Home</a></li>
-					<li><a class='nav-item' href="#dashboard">Dashboard</a></li>
-					<li><a class='nav-item' href="#requests">Requests</a></li>
-				</ul>
-			</div>
-	
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li><a class='nav-item' href="#home">Home</a></li>
+				<li><a class='nav-item' href="#dashboard">Dashboard</a></li>
+				<li><a class='nav-item' href="#requests">Requests</a></li>
+			</ul>
+		</div>
+
 	</nav>
 
 	<!------------HOME /CIRCLE INFOGRAPHIC------------>
-   
+
 	<div id="home">
 		<br>
 		<br>
@@ -238,7 +238,7 @@
 
 	</div>
 
-    
+
 
 
 
@@ -266,7 +266,7 @@
 						<th class="th-sm">Reviewed</th>
 						<th class="th-sm">In Progress</th>
 						<th class="th-sm">CVE Number</th>
-                </tr>
+					</tr>
 
 				</thread>
 				<tbody>
@@ -495,6 +495,60 @@
 	<!------------FORM REQUESTS------------>
 
 	<div id="requests">
+		<form>
+			<h3 class="contact-heading uppercase text-center">Request a feature or collaborate!</h3>
+
+			<br>
+			<br>
+			<br>
+
+			<div class="form-group row h-100 justify-content-center align-items-center">
+				<label for="fname" class="col-sm-2 col-form-label">Squad Name:</label>
+				<div class="col-sm-5">
+					<input type="text" name="name" id="fullname" class="form-control" required />
+    </div>
+				</div>
+
+				<fieldset class="form-group">
+					<div class="row ">
+                    
+						<legend class="col-form-label col-sm-2 pt-0"><nbsp>How can we help?:</legend>
+						<div class="col-sm-10  ">
+							<div class="form-check ">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+								<label class="form-check-label" for="gridRadios1">
+            Feature Request
+          </label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+								<label class="form-check-label" for="gridRadios2">
+            Would like to use SPOTI-CVE
+          </label><ensp>
+							</div>
+
+						</div>
+					</div>
+				</fieldset>
+
+				<div class="form-group row h-100 justify-content-center align-items-center">
+					<div class="col-sm-2">Brief Description:</div>
+					<div class="col-sm-5">
+						<div class="col-75">
+							<textarea rows="6" name="summary" id="summary" class="form-control" placeholder="We would like to hear..." style="height:100px; width:440px" required></textarea>
+						</div>
+					</div>
+				</div>
+                <br>
+                <br>
+				<div class="form-group row text-center">
+					<div class="col-sm-10">
+						<button type="submit" class="btn btn-secondary">Ship It</button>
+					</div>
+				</div>
+		</form>
+
+<!----
 		<section class="request-section container">
 			<div class="form">
 				<div class="col">
@@ -513,7 +567,7 @@
 								<input type="text" name="name" id="fullname" class="form-control" required />
 	                     </div>
 							</div>
-                            <br>
+							<br>
 
 							<div class="form-row">
 								<div class="col-25">
@@ -528,7 +582,7 @@
 
                             </div>
 								</div>
-                                <br>
+								<br>
 
 								<div class="form-row">
 									<div class="col-25">
@@ -551,8 +605,10 @@
 			</div>
 
 		</section>
+-->
 	</div>
-<br>
+
+	<br>
 
 	<!---------FOOTER--------->
 	<footer>
@@ -567,7 +623,7 @@
 				<li><a href="https://confluence.spotify.net/display/ENT/SOFTWARE+LIFECYCLE+AND++VULNERABILITY+MANAGEMENT+POLICY"
 						target="_blank"><i class="fab fa-confluence"></i></a></li>
 			</ul>
-            <p>&copy; 2020 ENT Squad. All Rights Reserved | Spotify AB<p>
+			<p>&copy; 2020 ENT Squad. All Rights Reserved | Spotify AB<p>
 		</div>
 	</footer>
 
