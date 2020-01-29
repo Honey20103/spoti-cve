@@ -397,6 +397,12 @@ h1 {
 
 /* ---------------------------------------- Footer  */
 
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
     border-color: transparent;
     text-align: center;
