@@ -273,8 +273,7 @@ h1 {
 /* -----------------------------DASHBOARD------------------------------- */
 
 #dashboard {
-    background-color: #fafafa;
-    padding-top: 120px;
+        padding-top: 120px;
 }
 
 table {
@@ -504,7 +503,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .circle-infographic {
+  .circle-infographic, {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -533,7 +532,7 @@ footer {
 
 @media (max-width: 767px) {
   .circle-infographic__right {
-    margin-top: -70px;
+    margin-top: -270px;
   }
 }
 
