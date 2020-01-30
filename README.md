@@ -42,6 +42,10 @@ $ git clone https://github.com/Honey20103/spoti-cve.git
 ## Testing
 This site was manually tested through trial and error to ensure compatibility and responsiveness.
 
+- Encountered many issues with regards to overflow of the the x-axis, couldn't seem to fix that for mobile devices.
+- Other issues found challenging to was the responsiveness nd creating media queries that would suit any device.
+- Lastly the table was challenging as i had to try different bootsrap options to fit it on one screen, however i didnt manage to solve for it to be compact and neat for small or mbile devices.
+
 
 ## Deployment 
 This site is hosted using GitHub pages, deployed directly from the master branch. 
