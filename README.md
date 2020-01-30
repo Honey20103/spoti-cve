@@ -57,8 +57,8 @@ All photos were taken from https://www.pexels.com/, a stock image library.
 
 ### Acknowledgements
 
-The progress circles from the dashboard section are derived from codepen: [site](https://codepen.io/InostrozaJ/pen/KOozbY). I modified them to fit the colour theme, and styling.
-The Circle infrographics diagram was modeled from codepen too, this [site](https://codepen.io/LegendAF/pen/jJzGLr/)
+The progress circles from the dashboard section are derived from [Codepen](https://codepen.io/InostrozaJ/pen/KOozbY). I modified them to fit the colour theme, and styling.
+The Circle infrographics diagram was modeled from [Codepen](https://codepen.io/LegendAF/pen/jJzGLr/).
 
 
 
