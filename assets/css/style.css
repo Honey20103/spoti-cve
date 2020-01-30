@@ -29,7 +29,10 @@ body {
 	text-align:inherit;
 }
 
-/* -----------------------------HOME------------------------------- */
+/* ---------------------------------------------HOME--------------------------------------------- */
+
+
+
 /* ---------------------------------------- Header/Nav Bar  */
 
 h1 {
@@ -85,7 +88,7 @@ h1 {
   height: 100%; 
 } 
 
-/* ---------------------------------------- JUMBOTRON  */
+/* ---------------------------------------- Home Page Backdrop  */
 #home {
 			background-attachment: fixed;
 			background-image: url('../images/drops.jpg');
@@ -276,25 +279,38 @@ h1 {
 }
 
 
-/* -----------------------------DASHBOARD------------------------------- */
+/* -------------------------------------------DASHBOARD----------------------------------------- */
 
 #dashboard {
         padding-top: 100px;
 }
-
+/*
 table {
     margin: 2px!important;
     border: 5px;
     table-layout:fixed;
-
+}
+*/
+.setWidth {
+    max-width: 100px;
 }
 
+.concat div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+    width: inherit;
+    -ms-text-overflow:  ellipsis;
+    -o-text-overflow: ellipsis;
+    }
+
+/*
 td { 
     overflow: hidden; 
     text-overflow: ellipsis; 
     word-wrap: break-word;
 }
-
+*/
 /* ---------------------------------------- Circle bar progress   */ 
 
 .container{
@@ -395,7 +411,7 @@ td {
   color:#fff;
 }
 
-/* -----------------------------REQUESTS------------------------------- */
+/* ---------------------------------------------REQUESTS---------------------------------------------- */
 
 #requests {
 		background-attachment: scroll;
@@ -449,7 +465,7 @@ footer {
 }
 
 
-/* ---------------------------------------- Media Queries  */
+/* ---------------------------------------- Media Queries ------------------------------------------ */
 /*
 @media screen and (max-width:943px) {
     #home {
