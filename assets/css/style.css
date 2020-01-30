@@ -285,13 +285,7 @@ h1 {
         padding-top: 100px;
         overflow: hidden;
 }
-/*
-table {
-    margin: 2px!important;
-    border: 5px;
-    table-layout:fixed;
-}
-*/
+
 .setWidth {
     max-width: 100px;
 }
@@ -304,15 +298,6 @@ table {
     -ms-text-overflow:  ellipsis;
     -o-text-overflow: ellipsis;
     }
-
-/*
-td { 
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-    word-wrap: break-word;
-}
-*/
-/* ---------------------------------------- Circle bar progress   */ 
 
 .container{
   position: relative;
@@ -471,21 +456,6 @@ footer {
 
 
 /* ---------------------------------------- Media Queries ------------------------------------------ */
-/*
-@media screen and (max-width:943px) {
-    #home {
-        clear: left;
-		float: left;
-		margin-left: 30px;
-		margin-bottom: 20px;
-		line-height: 25px:
-    }
-}
-
-@media screen and (max-width: 800px){
-	.card {
-		column-count: 1;
-	} */
 
 @media(min-width: 992px) {
     .request-section {
@@ -512,13 +482,6 @@ footer {
 	margin-bottom: 0;
   }
 }
-/*
-@media (max-width: 767px) {
-  .circle-infographic__dialog p {
-    padding: 0 20px;
-  }
-}
-*/
 
 @media (max-width: 767px) {
   .circle-infographic {
