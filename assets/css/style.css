@@ -15,12 +15,18 @@ body {
     overflow-x: hidden;
  }
 
-
-h2, h3{
+ h2 {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	text-align:center;
+}
+
+ h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align:inherit;
 }
 
 /* -----------------------------HOME------------------------------- */
@@ -273,7 +279,7 @@ h1 {
 /* -----------------------------DASHBOARD------------------------------- */
 
 #dashboard {
-        padding-top: 120px;
+        padding-top: 100px;
 }
 
 table {
