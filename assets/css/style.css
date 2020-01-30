@@ -85,7 +85,7 @@ h1 {
 			background-image: url('../images/drops.jpg');
 			background-position: inherit;
 			background-size: cover;
-			height: 900px;
+			height: 1000px;
 			width: 100%;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -496,14 +496,14 @@ footer {
 @media (max-width: 767px) {
   .circle-infographic {
     text-align: center;
-    padding-top: 30px;
+    padding-top: -100px;
     margin: inherit;
     margin-top: 20%!important;
   }
 }
 
 @media (min-width: 768px) {
-  .circle-infographic, {
+  .circle-infographic {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -532,7 +532,7 @@ footer {
 
 @media (max-width: 767px) {
   .circle-infographic__right {
-    margin-top: -270px;
+    margin-top: -240px;
   }
 }
 
