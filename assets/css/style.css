@@ -432,6 +432,10 @@ td {
     align-items: center;
 }
 
+.test {
+    align-self: center;
+}
+
 
 
 
@@ -555,6 +559,9 @@ footer {
 @media (max-width: 767px) {
   .circle-infographic__right {
     margin-top: -280px;
+    font: #fafafa!important;
+
+    
   }
 }
 
