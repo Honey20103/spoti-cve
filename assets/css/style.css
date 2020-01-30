@@ -91,7 +91,7 @@ h1 {
 			background-image: url('../images/drops.jpg');
 			background-position: inherit;
 			background-size: cover;
-			height: 900px;
+			height: 1000px;
 			width: 100%;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -538,7 +538,7 @@ footer {
 
 @media (max-width: 767px) {
   .circle-infographic__right {
-    margin-top: -240px;
+    margin-top: -280px;
   }
 }
 
