@@ -276,6 +276,19 @@ h1 {
     padding-top: 120px;
 }
 
+table {
+    margin: 5px!important;
+    margin-right: 5px;
+    table-layout:fixed;
+
+}
+
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+
 /* ---------------------------------------- Circle bar progress   */ 
 
 .container{
