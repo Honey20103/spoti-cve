@@ -283,6 +283,7 @@ h1 {
 
 #dashboard {
         padding-top: 100px;
+        overflow: hidden;
 }
 /*
 table {
@@ -425,7 +426,7 @@ td {
 		z-index: 1;
 		position: relative;
         padding-top: 120px;
-        overflow-x: inherit;
+        overflow-x: hidden!important;
 		}
 
 .form-group {
