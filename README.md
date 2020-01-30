@@ -3,6 +3,9 @@
 This repo hosts the assets used to build the Spoti-cve website, available at .
 
 
+### Demo 
+A live demo can be found here [here](https://honey20103.github.io/spoti-cve/)
+
 
 ## Project Setup 
 
@@ -11,6 +14,8 @@ This repo hosts the assets used to build the Spoti-cve website, available at .
 ```shell
 $ git clone https://github.com/Honey20103/spoti-cve.git
 ```
+### Skeleton
+[Wireframe](https://github.com/Honey20103/spoti-cve/blob/master/wireframes/Milestone%201%20Project%20(Spoti-CVE).bmpr)
 
 ## Project Goals
 
@@ -35,7 +40,7 @@ $ git clone https://github.com/Honey20103/spoti-cve.git
 3. Bootstrap 
 
 ## Testing
-
+This site was manually tested through trial and error to ensure compatibility and responsiveness.
 
 
 ## Deployment 
@@ -48,11 +53,12 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 The content on the site is derived from my team and I the CVE tool, however mainly information is pulled from the [Circl CVE Search Website](https://www.circl.lu) and Inventory list from internal Spotify version of LibreNMS.
 
 ### Media 
-
+All photos were taken from https://www.pexels.com/, a stock image library.
 
 ### Acknowledgements
 
+The progress circles from the dashboard section are derived from codepen: [site](https://codepen.io/InostrozaJ/pen/KOozbY). I modified them to fit the colour theme, and styling.
+The Circle infrographics diagram was modeled from codepen too, this [site](https://codepen.io/LegendAF/pen/jJzGLr/)
 
-The media query for h was taken from this [site](https://www.codeply.com/)
 
 
